@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+.Container {
+    border: 3px solid rgb(0, 0, 0);
+    margin: 100px auto;
+    width: 345px;
+    height: auto;
+    padding: 10px;
+    align-self: center;
+}
+
+#heading {
+    text-align: center;
+    color: white;
+}
+
+#B1 {
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(175, 81, 18);
+}
+#B2 {
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(175, 81, 18);
+}
+#B3 {
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(175, 81, 18);
+}
+#B4 {
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(175, 81, 18);
+    
+}
+
+@media (min-width: 1200px) {
+    #B1 {
+        float: left; 
+        background-color: rgb(10, 38, 51);
+    }
+    #B2 {
+        float: right;
+        background-color: rgb(10, 38, 51);
+    }
+    #B3 {
+        float: left;
+        background-color: rgb(10, 38, 51);
+    }
+    #B4 {
+        float: right;
+        background-color: rgb(10, 38, 51);
+    }
+    .Container {
+        width: 666px;
+        height: 450px;
+        background-color: rgb(46, 118, 146);
+    }
+        
+    }
+    @media (min-width: 0px) and (max-width: 1199px) {
+        #B1 {
+            float: left; 
+            background-color: rgb(46, 118, 146);
+        }
+        #B2 {
+            float: right;
+            background-color: rgb(46, 118, 146);
+        }
+        #B3 {
+            float: left;
+            background-color: rgb(46, 118, 146);
+        }
+        #B4 {
+            float: right;
+            background-color: rgb(46, 118, 146);
+        }
+        .Container {
+            height: 730px;
+            background-color: rgb(10, 38, 51);
+        }
+            
+        }
+        
